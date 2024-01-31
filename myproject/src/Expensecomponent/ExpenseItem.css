@@ -9,11 +9,11 @@
 }
 .expense-item__description {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   gap: 1rem;
   align-items: center;
-  flex-flow: column-reverse;
-  justify-content: flex-start;
+  flex-flow: row;
+  justify-content: space-between;
   flex: 1;
 }
 .expense-item h2 {
