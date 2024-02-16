@@ -15,6 +15,7 @@ function Navbar(){
         <div className='menu-icon' onClick={handleClick}>
             <i className={click? 'fas fa-time':"fas fa-bar"}/>
         </div>
+        <ul className={ click? 'nav-menu active':'nav-menu'}></ul>
     </div>
 </nav>
         </div>
