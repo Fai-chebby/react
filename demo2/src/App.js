@@ -7,7 +7,11 @@ function App() {
   return (
     <>
         <Router>
-      <Navbar></Navbar>
+            <Navbar>
+            </Navbar>
+            <switch>
+<Route path="/" exact/>
+            </switch>
         </Router>
     </>
   );
