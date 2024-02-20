@@ -65,3 +65,7 @@
     color: ;
     cursor:pointer;
 }
+.submit-container{
+    display: flex;
+    gap: 80px;
+}
