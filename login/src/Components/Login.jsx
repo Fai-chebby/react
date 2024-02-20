@@ -12,15 +12,15 @@ const  Login= () =>{
                 </div>
                 <div className="inputs">
                     <div className="input">
-                        <img src="" alt=""/>
+                        <img src={user_icon} alt=""/>
                         <input type="text"/>
                     </div>
                     <div className="input">
-                        <img src="" alt=""/>
+                        <img src={email_icon} alt=""/>
                         <input type="Email"/>
                     </div>
                     <div className="input">
-                        <img src="" alt=""/>
+                        <img src={password_icon} alt=""/>
                         <input type="Password"/>
                     </div>
 
