@@ -40,11 +40,11 @@
     margin: auto;
     width: 480px;
     height: 80px;
-    background: white;
+    background: #eaeaea;
     border-radius: 6px;
 }
 .input img{
-    margin: 0px 30px;
+    margin:0px 30px;
 }
 .input input{
     height: 50px;
