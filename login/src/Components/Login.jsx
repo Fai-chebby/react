@@ -1,3 +1,7 @@
+import '/.Login.css'
+import user_icon from'../Assets/Assets/person.png'
+import email_icon from'../Assets/Assets/email.png'
+import password_icon from'../Assets/Assets/password.png'
 const  Login= () =>{
     return(
 
