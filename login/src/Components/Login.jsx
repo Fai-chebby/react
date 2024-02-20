@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './login.css';
 
 import user_icon from'../Assets/Assets/person.png'
@@ -31,8 +31,8 @@ const  Login= () =>{
                 </div>
                 <div className="forgot-password">Lost Password? <span>Click Here!</span></div>
                 <div className="submit-container">
-                    <div className="submit">Sign Up</div>
-                    <div className="submit">Login</div>
+                    <div className={action==="Login"?"submit gray":"submit"}>Sign Up</div>
+                    <div className={action==="Sign Up"?"submit gray":"submit"}>Login</div>
                 </div>
 
             </div>
