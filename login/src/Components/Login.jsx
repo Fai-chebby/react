@@ -1,4 +1,5 @@
-import '/.Login.css'
+import React from 'react'
+import '/.login.css'
 import user_icon from'../Assets/Assets/person.png'
 import email_icon from'../Assets/Assets/email.png'
 import password_icon from'../Assets/Assets/password.png'
@@ -26,6 +27,7 @@ const  Login= () =>{
 
 
                 </div>
+                <div className="forgot-password">Lost Password? <span>Click Here!g</span></div>
                 <div className="submit-container">
                     <div className="submit">Sign Up</div>
                     <div className="submit">Login</div>
