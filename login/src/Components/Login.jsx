@@ -5,11 +5,12 @@ import user_icon from'../Assets/Assets/person.png'
 import email_icon from'../Assets/Assets/email.png'
 import password_icon from'../Assets/Assets/password.png'
 const  Login= () =>{
+    const [action,setAction]=useState("Sign Up")
     return(
 
             <div className="container">
                 <div className="header">
-                    <div className="text">Sign Up</div>
+                    <div className="text">{action}</div>
                     <div className="underline"></div>
                 </div>
                 <div className="inputs">

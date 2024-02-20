@@ -67,7 +67,7 @@
 }
 .submit-container{
     display: flex;
-    gap: 80px;
+    gap: 3S0px;
     margin: 60px auto;
 }
 .submit{
@@ -79,7 +79,8 @@
     color: #ffff;
     background: #4c00b4;
     border-radius: 30px;
-    font-size: 49px;
+    font-size: 19px;
     font-weight: 700;
     cursor: pointer;
 }
+
