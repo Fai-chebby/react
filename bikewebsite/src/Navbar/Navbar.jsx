@@ -8,8 +8,10 @@ const Navbar=()=>{
                 <li>Home</li>
                 <li>Explore</li>
                 <li>About</li>
-                <li>Contct</li>
+                <li className='nav-contact' >Contact</li>
             </ul>
         </div>
     )
+
 }
+export default Navbar
