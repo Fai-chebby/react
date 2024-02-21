@@ -15,7 +15,9 @@ const Hero=()=>{
 
 </div>
        <div className='hero-dot-play'>
-           
+           <ul className='hero-dots'>
+               <li className='hero-dot'></li>
+           </ul>
        </div>
 
         </div>

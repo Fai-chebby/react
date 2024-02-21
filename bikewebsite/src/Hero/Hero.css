@@ -1,0 +1,10 @@
+.hero{
+    margin: 0px 120px;
+    margin-top: 27px;
+}
+.hero-text{
+    color: #ffffff;
+    font-size: 110px;
+    font-weight: 500;
+    line-height: 130px;
+}
