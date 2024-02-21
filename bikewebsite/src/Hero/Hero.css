@@ -36,3 +36,22 @@
     gap: 23px;
     list-style: none;
 }
+.hero-dot{
+    width: 15px;
+    height: 15px;
+    background: #ffffff;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+
+
+
+.hero-play{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.hero-play p{
+    color: #ffffff;
+    font-size: 19px;
+}
