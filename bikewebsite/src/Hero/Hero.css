@@ -1,6 +1,6 @@
 .hero{
     margin: 0px 120px;
-    margin-top: 27px;
+    margin-top: 270px;
 }
 .hero-text{
     color: #ffffff;
@@ -42,6 +42,9 @@
     background: #ffffff;
     border-radius: 7.5px;
     cursor: pointer;
+}
+.hero-dot.orange{
+    background: orangered;
 }
 
 
