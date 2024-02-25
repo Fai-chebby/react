@@ -5,6 +5,12 @@ export const Navbar=()=>{
   return(
       <nav>
           <Link to="/" classname="title">Home</Link>
+          <div className="menu">
+              <span></span>
+              <span></span>
+              <span></span>
+
+          </div>
           <ul>
               <li>
                   <NavLink to='/about'>About</NavLink>
