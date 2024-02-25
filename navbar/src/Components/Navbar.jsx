@@ -1,15 +1,17 @@
 import React from "react";
-import {Link} from "react-router-dom"
+import {Link, NavLink} from "react-router-dom"
+import "./Navbar.css"
 export const Navbar=()=>{
   return(
       <nav>
+          <Link to="/" classname="title">Home</Link>
           <ul>
               <li>
-                  <Link to='/about'>About</Link>
+                  <NavLink to='/about'>About</NavLink>
               </li>
-              <li> <Link to='/link'>Contact</Link></li>
-              <li><Link to='/signUp'>SignUp</Link></li>
-              <li><Link to='/login'>Login</Link></li>
+              <li> <NavLink to='/link'>Contact</NavLink></li>
+              <li><NavLink to='/signUp'>SignUp</NavLink></li>
+              <li><NavLink to='/login'>Login</NavLink></li>
           </ul>
       </nav>
   )
