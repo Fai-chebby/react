@@ -34,9 +34,11 @@ export const Home=()=>{
                 {data.map((item,i)=>(
                     <div className="item">
                         <div className="title">
-                            <h2></h2>
+                            <h2>{item.question}</h2>
+                            <span> ></span>
 
                         </div>
+                        <div className="content">{item.answer}</div>
                     </div>
                 ))}
 
