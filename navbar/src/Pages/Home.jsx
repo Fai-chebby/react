@@ -1,4 +1,4 @@
-import React {useState} from "react"
+import {useState} from "react"
 import './Home.css'
 /*import {Dialog} from "primereact/dialog";
 import {InputText} from'primereact/dialog'*/
@@ -44,7 +44,7 @@ export const Home=()=>{
                     <div className="item">
                         <div className="title" onClick={()=>toggle(i)}>
                             <h2>{item.question}</h2>
-                            <span> ></span>
+                            <span> { selected ===i?'<':'>'}</span>
 
                         </div>
                         <div className="content">{item.answer}</div>
