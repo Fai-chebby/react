@@ -47,7 +47,7 @@ export const Home=()=>{
                             <span> { selected ===i?'<':'>'}</span>
 
                         </div>
-                        <div className="content">{item.answer}</div>
+                        <div className={ selected ===i?'content show':'content'}>{item.answer}</div>
                     </div>
                 ))}
 
