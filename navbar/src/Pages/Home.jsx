@@ -1,6 +1,7 @@
-import React, {useState} from "react";
-import {Dialog} from "primereact/dialog";
-import {InputText} from'primereact/dialog'
+import React from "react"
+import './Home.css'
+/*import {Dialog} from "primereact/dialog";
+import {InputText} from'primereact/dialog'*/
 
 export const Home=()=>{
    /* const [image, setimage ] =useState('')*/
@@ -47,3 +48,22 @@ export const Home=()=>{
         </div>
     )
 }
+const data=[
+    {
+        question:'Why Password Manager',
+        answer:
+        'Password managers generate strong, unique passwords for each of your accounts and store them in an encrypted vault.'
+
+    },
+    {
+        question:'When  to use Password Manager',
+        answer:
+            'Difficulty in remembering passwords, if you struggle to remember multiple complex passwords for different accounts, a password manager can help by securely storing and autofilling your login credentials.'
+    },
+    {
+        question:'Advantage of Password Manger',
+        answer:
+           'To improve security and convenience and create a cross-Platform Accessibility'
+    }
+
+]
