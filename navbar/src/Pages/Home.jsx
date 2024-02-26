@@ -1,9 +1,17 @@
-import React from "react"
+import React {useState} from "react"
 import './Home.css'
 /*import {Dialog} from "primereact/dialog";
 import {InputText} from'primereact/dialog'*/
 
 export const Home=()=>{
+    const [selected,setSelected] = useState(null)
+    const toggle=(i)=>{
+        if (selected ===i ){
+            return setSelected(null)
+
+        }
+        setSelected(i)
+    }
    /* const [image, setimage ] =useState('')*/
     return(
         /*<div className='profile_img text-center p-4'>
@@ -34,7 +42,7 @@ export const Home=()=>{
             <div className="accordian">
                 {data.map((item,i)=>(
                     <div className="item">
-                        <div className="title">
+                        <div className="title" onClick={()=>toggle(i)}>
                             <h2>{item.question}</h2>
                             <span> ></span>
 
