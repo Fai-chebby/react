@@ -3,9 +3,9 @@ import {Dialog} from "primereact/dialog";
 import {InputText} from'primereact/dialog'
 
 export const Home=()=>{
-    const [image, setimage ] =useState('')
+   /* const [image, setimage ] =useState('')*/
     return(
-        <div className='profile_img text-center p-4'>
+        /*<div className='profile_img text-center p-4'>
     <div className='flex flex-column justify-content-center align-item'>
 <img style={{
     width:"200px",
@@ -28,6 +28,20 @@ export const Home=()=>{
                 )}
         />
     </div>
+        </div>*/
+        <div className="wrapper">
+            <div className="accordian">
+                {data.map((item,i)=>(
+                    <div className="item">
+                        <div className="title">
+                            <h2></h2>
+
+                        </div>
+                    </div>
+                ))}
+
+            </div>
+
         </div>
     )
 }
