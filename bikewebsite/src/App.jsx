@@ -17,7 +17,7 @@ const App = () => {
         setInterval(() => {
             // Increment heroCount cyclically
             setHeroCount((count) => (count + 1) );
-        }, 3000);
+        }, 5000);
     }, []); // Ensure this effect runs only once by providing an empty dependency array
 
     return (
