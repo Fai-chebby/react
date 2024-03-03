@@ -10,11 +10,18 @@ export const BasicTable=()=>{
         columns,
         data
     })
+    const {
+        getTableProps,
+        getTableBodyProps,
+        headerGroups,
+        rows,
+        prepareRow,
+    }=tableInstance
 
 
     return(
         <div>
-<table>
+<table {...getTableProps}>
     <thead>
     <tr>
         <th>
@@ -22,7 +29,7 @@ export const BasicTable=()=>{
         </th>
     </tr>
     </thead>
-    <tbody>
+    <tbody {...getTableBodyProps}>
     <tr>
         <td></td>
     </tr>
