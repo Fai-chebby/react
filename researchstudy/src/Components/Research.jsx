@@ -1,4 +1,5 @@
- export  const Research=()=>{
+ import './Research.css'
+export  const Research=()=>{
     return(
         <div>
             <div id="container">
