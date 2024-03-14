@@ -4,8 +4,16 @@ const Footer=()=>{
     return(
         <div className="footer">
             <div className="sb_footersection_padding">
-                <div className="sb_footer_link">
-                    <div className="sb_footer">
+                <div className="sb_footer-links">
+                    <div className="sb_footer-links-div">
+<h4> For More Details</h4>
+                        <a href="contacts">
+                            <p>Contacts</p>
+                            <a href="contacts">
+                                <p>Contacts</p>
+                                <a href="contacts">
+                                    <p>Contacts</p>
+                                </a>
 
                     </div>
 
