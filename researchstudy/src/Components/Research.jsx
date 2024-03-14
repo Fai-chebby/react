@@ -31,6 +31,10 @@ export  const Research=()=>{
                             <span className="name">How to Make Your Faith Work</span>
                             <span className="delete">delete</span>
                         </li>
+                        <li>
+                            <span className="name">Prayer life</span>
+                            <span className="delete">delete</span>
+                        </li>
                     </ul>
                 </div>
                 <form id="add-book">
