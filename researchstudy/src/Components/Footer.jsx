@@ -9,10 +9,10 @@ const Footer=()=>{
 <h4> For More Details</h4>
                         <a href="contacts">
                             <p>Contacts</p>
-                            <a href="contacts">
-                                <p>Contacts</p>
-                                <a href="contacts">
-                                    <p>Contacts</p>
+                            <a href="Details">
+                                <p>Details</p>
+                                <a href="books">
+                                    <p>Books</p>
                                 </a>
 
                     </div>
