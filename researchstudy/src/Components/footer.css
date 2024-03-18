@@ -14,10 +14,12 @@
 .flex-container{
    display:flex;
     background: #333333;
+    flex-wrap: wrap;
 }
 .box{
     height: 100px;
     min-width: 100px;
+    flex-basis: 100px;
 }
 .one{
     background: aqua;
