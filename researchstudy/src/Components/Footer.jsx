@@ -12,9 +12,14 @@ const Footer=()=>{
             </div>*/}
                 <nav>
                     <ul>
-                        <li>Home </li>
-                        <li>About </li>
-                        <li>State </li>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>State</li>
+                    </ul>
+                    <ul className="social">
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+
                     </ul>
                 </nav>
 
