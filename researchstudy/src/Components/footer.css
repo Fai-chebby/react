@@ -1,0 +1,16 @@
+*{
+    font-family: Verdana;
+    margin: 0;
+}
+.footer{
+    background: #eee;
+}
+.wrapper{
+ width: 100%;
+    max-width: 960px;
+    margin: 0;
+
+}
+.flex-container{
+    
+}
