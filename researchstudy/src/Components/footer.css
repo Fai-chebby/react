@@ -12,7 +12,8 @@
 
 }
 .flex-container{
-   //display:flex;
+   display:flex;
+    background: #333333;
 }
 .box{
     height: 100px;
@@ -20,10 +21,16 @@
 }
 .one{
     background: aqua;
+    //flex-shrink: 1;
+    flex-grow: 4;
 }
 .two{
     background: goldenrod;
+    //flex-shrink: 2;
+    flex-grow: 3;
 }
 .three{
     background: darkorchid;
+    //flex-shrink: 3;
+    flex-grow: 3;
 }
