@@ -36,3 +36,17 @@
     //flex-shrink: 3;
     flex-grow: 3;
 }
+nav{
+    background: #9361bf;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav li{
+ text-decoration: none;
+    text-align: center;
+    color: goldenrod;
+    display: block;
+    padding: 10px;
+}
