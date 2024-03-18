@@ -12,5 +12,18 @@
 
 }
 .flex-container{
-    
+   //display:flex;
+}
+.box{
+    height: 100px;
+    min-width: 100px;
+}
+.one{
+    background: aqua;
+}
+.two{
+    background: goldenrod;
+}
+.three{
+    background: darkorchid;
 }
