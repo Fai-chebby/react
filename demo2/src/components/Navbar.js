@@ -10,9 +10,15 @@ function Navbar() {
 
     return (
         <div>
+            <div>
             <input placeholder="Enter name..." onChange={onChange} />
             {inputValue}
+            </div>
+            <div>
+                <h1> A bank card is all what we need</h1>
+            </div>
         </div>
+
     );
 }
 
