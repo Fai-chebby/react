@@ -15,7 +15,7 @@ function Navbar() {
             {inputValue}
             </div>
             <div>
-                <h1> A bank card is all what we need</h1>
+                <h1> A bank card is all what we need, but we forget that what is inside is what is the most valuable</h1>
             </div>
         </div>
 
