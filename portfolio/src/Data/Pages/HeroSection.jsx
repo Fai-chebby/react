@@ -10,7 +10,7 @@ export default function HeroSection(){
                      Developer
 
                  </h1>
-                 <p className="desc">Learning is part of me.</p>
+                 <p className="desc">Learning is part of me.<span> But coding is fun👩‍💻</span></p>
 
              </div>
              <button className="btn btn-primary">Be In Touch</button>
