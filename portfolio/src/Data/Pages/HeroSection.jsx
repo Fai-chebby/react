@@ -7,6 +7,7 @@ export default function HeroSection(){
                  <h4 className="titlle--sub"> Loved & Graced</h4>
                  <h1 className="tittle--des">
                      <span className="color"> UI & UX</span>{""}<br/>
+                     <span>Graphic</span>
                      Developer
 
                  </h1>
