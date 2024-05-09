@@ -1,0 +1,23 @@
+body{
+    height: 100%;
+    width: 1200px;
+}
+.Hero--section{
+   display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.Hero--section--Box{
+    grid-column: 1/3;
+}
+.image{
+    grid-column: 3/6;
+}
+.Hero--section--content{
+    margin-top: 100px;
+    margin-left: 100px;
+    align-items: center;
+}
+.title--des{
+
+}
