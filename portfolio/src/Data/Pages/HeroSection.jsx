@@ -13,10 +13,10 @@ export default function HeroSection(){
                      <span>Graphic</span> <br/><span>Developer</span>
 
                  </h1>
-                 <p className="desc">Learning is part of me.<span> But coding is fun👩‍💻</span></p>
+                 <p className="desc">Learning is part of me.<br/><span> But coding is fun👩‍💻</span></p>
 
              </div>
-             <button className="btn btn-primary">Be In Touch</button>
+             <button className=" btn-primary">Be In Touch</button>
 
          </div>
             <div className="image">
