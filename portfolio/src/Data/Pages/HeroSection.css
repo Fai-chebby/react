@@ -40,5 +40,14 @@ font-size: 48px;
 .btn-primary{
 margin-left: 50px;
     margin-top: 20px;
+    background-color: white;
+    text-decoration-color: white;
+    height: 20px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 130px;
+    text-align: center;
+    line-height: 0px;
 }
 
